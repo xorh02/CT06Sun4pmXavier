@@ -22,12 +22,12 @@ function draw() {
   // circle(525,200,100);
   
   //to do for loop-> for(let i =0; i<11; i++ ){}
+ 
+  // Task 1: Colour Gradient
   for(let i=0; i<4;i++){
     //fill(r,g,b);
     circle(75 + (i*150),200,100);
   }
-  // Task 1: Colour Gradient
-
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
