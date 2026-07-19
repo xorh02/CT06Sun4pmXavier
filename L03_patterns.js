@@ -52,8 +52,9 @@ function draw() {
     circle(spacing + i*spacing,200,40);
   }
   //Challenge 3: Checkered Pattern
-  
-  // Task 3: Row of Circles
 
+  // Task 3: Row of Circles
+   //step 1
+   
   // Task 4: Grid of Circles
 }
