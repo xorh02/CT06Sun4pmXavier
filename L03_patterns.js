@@ -43,7 +43,8 @@ function draw() {
     rect(50+i,275,1,50);
   }
   // Task 2: Colour Loop
-  fill()
+  let i=0;
+  fill(i++);
   circle(100,100,100);
   // Task 3: Row of Circles
 
