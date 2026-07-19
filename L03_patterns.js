@@ -10,7 +10,9 @@ function draw() {
   circle(75,200,100);
 
   fill(0,255,0);
-  circle()
+  circle(225,200,100);
+
+  fi
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
