@@ -42,10 +42,11 @@ function draw() {
     rect(50+i,275,1,50);
   }
   // Task 2: Colour Loop
- 
+  for(xx;xx<255;xx+=10){
   fill(xx);
+  }
   circle(100,100,100);
-  xx +=10;
+
   console.log(xx);
   // Task 3: Row of Circles
 
