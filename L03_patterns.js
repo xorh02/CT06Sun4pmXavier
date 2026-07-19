@@ -32,7 +32,7 @@ function draw() {
   for(let i=0; i<9; i++){
     noStroke();
     fill(255 -i *25);
-    rect()
+    rect(50 +i *35,90,25);
   }
 
   // Task 2: Colour Loop
