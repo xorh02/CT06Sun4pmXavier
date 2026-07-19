@@ -54,7 +54,7 @@ function draw() {
   //Challenge 3: Checkered Pattern
 
   // Task 3: Row of Circles
-   //step 1
-   
+   //step 1 divide canvas width 
+
   // Task 4: Grid of Circles
 }
