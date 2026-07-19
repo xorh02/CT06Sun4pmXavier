@@ -55,7 +55,7 @@ function draw() {
 
   // Task 3: Row of Circles
    //step 1 new var&divide canvas width by2
-   let 
+   let halfwidth = width/2;
    //step 2 new var&divide total circle width by2
 
    //step 3 find the gap
