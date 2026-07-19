@@ -38,7 +38,8 @@ function draw() {
   //challenge 2: Smooth Gradient
   for(let i =0; i <300;i++){
     noStroke();
-    fill(i*255/300)
+    fill(i*255/300);
+    rect(50+i)
   }
   // Task 2: Colour Loop
 
