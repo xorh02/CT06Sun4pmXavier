@@ -43,7 +43,7 @@ function draw() {
     rect(50+i,275,1,50);
   }
   // Task 2: Colour Loop
-
+  circle()
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
