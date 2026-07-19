@@ -58,7 +58,7 @@ function draw() {
   //step 1 new var&divide canvas width by2
    let halfwidth = width/2;
    //step 2 new var&divide total circle width by2
-   let 
+   let circlewidth = 
    //step 3 find the gap
 
    //step 4 find the radius
