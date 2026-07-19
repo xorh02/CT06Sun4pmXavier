@@ -28,8 +28,9 @@ function draw() {
     fill(i * 50);
     circle(50 + i*50,200,40);
   }
-  //challenge 1
-  
+  //Challenge 1: Reversed Gradient
+
+
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
