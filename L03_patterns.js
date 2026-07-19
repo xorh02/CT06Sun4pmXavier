@@ -45,7 +45,8 @@ function draw() {
  
   fill(xx);
   circle(100,100,100);
-  console.log(i);
+  xx +=10;
+  console.log(xx);
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
