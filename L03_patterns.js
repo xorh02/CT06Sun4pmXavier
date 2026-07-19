@@ -35,7 +35,10 @@ function draw() {
     rect(50 +i *35,90,25);
   }
   
-  
+  //challenge 2: Smooth Gradient
+  for(let i =0; i <300;i++){
+    noStroke()
+  }
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
