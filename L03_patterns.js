@@ -44,7 +44,7 @@ function draw() {
   }
   // Task 2: Colour Loop
   let i=0;
-  fill(i++);
+  fill(i+=10);
   circle(100,100,100);
   // Task 3: Row of Circles
 
