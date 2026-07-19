@@ -42,14 +42,18 @@ function draw() {
     rect(50+i,275,1,50);
   }
   // Task 2: Colour Loop
-  for(let i=0;i<8;i++){
+  for(let i=0;i<5;i++){
     if(i%2==0){
       fill(0);
     }else{
       fill(255);
     }
   }
-  
+   let spacing =50;
+  for(let i=0; i<5;i++){
+    fill(i * 50);
+   
+  }
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
