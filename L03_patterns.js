@@ -52,7 +52,7 @@ function draw() {
     circle(spacing + i*spacing,200,40);
   }
   //Challenge 3: Checkered Pattern
-
+  //will give answer next week for challenge3
   // Task 3: Row of Circles
   let circlediameter = 30; 
   //step 1 new var&divide canvas width by2
@@ -70,6 +70,6 @@ function draw() {
    //step 6 create the loop for 5 circle
    for(let i=0;i<5;i++){ circle(startX +i*30,30,30)};
 
-   
+
   // Task 4: Grid of Circles
 }
