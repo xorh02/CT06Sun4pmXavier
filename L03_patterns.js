@@ -60,7 +60,9 @@ function draw() {
 
    //step 3 find the gap
 
-   
+   //step 4 find the radius
+
+   //step 5 find startx add 
 
   // Task 4: Grid of Circles
 }
