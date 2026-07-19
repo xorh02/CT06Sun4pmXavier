@@ -58,6 +58,8 @@ function draw() {
 
    //step 2 divide total circle width by2
 
+   //step 3 find the gap
+
    
 
   // Task 4: Grid of Circles
