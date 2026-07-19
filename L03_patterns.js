@@ -42,7 +42,7 @@ function draw() {
     rect(50+i,275,1,50);
   }
   // Task 2: Colour Loop
-  for(xx;xx<255;xx+=10){
+  for(xx;xx<255;xx+=1){
   fill(xx);
   }
   circle(100,100,100);
