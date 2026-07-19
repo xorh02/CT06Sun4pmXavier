@@ -31,7 +31,8 @@ function draw() {
   //Challenge 1: Reversed Gradient
   for(let i=0; i<9; i++){
     noStroke();
-    fill(255 -i *25)
+    fill(255 -i *25);
+    rect()
   }
 
   // Task 2: Colour Loop
