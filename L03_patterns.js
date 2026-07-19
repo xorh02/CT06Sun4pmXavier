@@ -68,6 +68,6 @@ function draw() {
    let startX = 0;
    startX = gap + radius;
    //step 6 create the loop for 5 circle
-   for(let i=0;i<5;i++){}
+   for(let i=0;i<5;i++){ circ}
   // Task 4: Grid of Circles
 }
