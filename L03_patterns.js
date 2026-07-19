@@ -42,7 +42,9 @@ function draw() {
     rect(50+i,275,1,50);
   }
   // Task 2: Colour Loop
-  
+  for(let i=0;i<8;i++){
+    
+  }
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
