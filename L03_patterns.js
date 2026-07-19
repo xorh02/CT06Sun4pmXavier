@@ -66,9 +66,11 @@ function draw() {
    let radius = circlediameter /2;
    //step 5 find startx add gap and radius
    let startX = 0;
-   startX =  radius;
+   startX = gap+radius;
    //step 6 create the loop for 5 circle
-   for(let i=0;i<5;i++){ circle(startX +i*30,15,30)};
+   for(let i=0;i<5;i++){ 
+    circle(startX +i*30,15,30)
+  };
 
 
   // Task 4: Grid of Circles
