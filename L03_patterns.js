@@ -49,7 +49,7 @@ function draw() {
       fill(255);
     }
   }
-  
+  rect(100,100,100,100);
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
