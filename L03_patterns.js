@@ -1,5 +1,4 @@
-
-
+ let i=0;
 
 function setup() {
     createCanvas(600, 400);
@@ -43,7 +42,7 @@ function draw() {
     rect(50+i,275,1,50);
   }
   // Task 2: Colour Loop
-  let i=0;
+ 
   fill(i+=10);
   circle(100,100,100);
   console.log(i);
