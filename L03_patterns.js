@@ -42,7 +42,7 @@ function draw() {
     rect(50+i,275,1,50);
   }
   // Task 2: Colour Loop
-  let spacing =50;
+ 
   for(let i=0;i<5;i++){
     if(i%2==0){
       fill(0);
@@ -68,6 +68,6 @@ function draw() {
    let startX = 0;
    startX = gap + radius;
    //step 6 create the loop for 5 circle
-   for(let i=0;i<5;i++){ circle(startX +i*30,30,30)}
+   for(let i=0;i<5;i++){ circle(startX +i*30,30,30)};
   // Task 4: Grid of Circles
 }
