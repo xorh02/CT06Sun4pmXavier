@@ -62,7 +62,9 @@ function draw() {
 
    //step 4 find the radius
 
-   //step 5 find startx add 
+   //step 5 find startx add gap and radius
+
+   //step 6 create the loop for 5 circle
 
   // Task 4: Grid of Circles
 }
