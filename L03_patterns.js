@@ -63,7 +63,7 @@ function draw() {
    //step 3 find the gap
    let gap = halfwidth - halfcirclewidth;
    //step 4 find the radius
-
+   let radius = circlediameter /2;
    //step 5 find startx add gap and radius
 
    //step 6 create the loop for 5 circle
