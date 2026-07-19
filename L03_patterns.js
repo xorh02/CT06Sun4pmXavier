@@ -1,5 +1,5 @@
-let ball;
-const valusl
+let ball; 
+const valusl = 1;
 
 
 function setup() {
