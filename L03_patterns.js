@@ -34,7 +34,8 @@ function draw() {
     fill(255 -i *25);
     rect(50 +i *35,90,25);
   }
-
+  
+  
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
