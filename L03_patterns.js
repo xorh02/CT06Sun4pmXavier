@@ -54,7 +54,7 @@ function draw() {
   //Challenge 3: Checkered Pattern
 
   // Task 3: Row of Circles
-   //step 1 divide canvas width by2
+   //step 1 new var&divide canvas width by2
 
    //step 2 divide total circle width by2
 
