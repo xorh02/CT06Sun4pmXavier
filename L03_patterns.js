@@ -1,3 +1,6 @@
+let 
+
+
 function setup() {
     createCanvas(600, 400);
     background(220);
@@ -17,7 +20,7 @@ function draw() {
 
   fill(100,24,75);
   circle(525,200,100);
-  
+
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
