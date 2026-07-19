@@ -1,6 +1,7 @@
 let ball; 
 const valusl = 1;
-Volleyball
+VolleyBall
+pascalCase
 
 
 function setup() {
