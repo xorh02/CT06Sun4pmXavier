@@ -29,7 +29,9 @@ function draw() {
     circle(50 + i*50,200,40);
   }
   //Challenge 1: Reversed Gradient
-
+  for(let i=0; i<9; i++){
+    noStr
+  }
 
   // Task 2: Colour Loop
 
