@@ -23,6 +23,7 @@ function draw() {
   
   //to do for loop-> for(let i =0; i<11; i++ ){}
   for(let i=0; i<4;i++){
+    //fill(r,g,b)
     circle(75 + (i*150),200,100);
   }
   // Task 1: Colour Gradient
