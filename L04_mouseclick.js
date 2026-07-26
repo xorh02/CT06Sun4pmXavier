@@ -11,7 +11,8 @@ function draw(){
     circle(300,200,300);
     //random(); -> generate a number between 0 and 1
     //random(one number); -> generate a number between 0 and one number;
-    //random(low number,high number)
+    //random(low number,high number); -> generate a number between lownumber and high number
+    
 }
 
 function mousePressed(){
