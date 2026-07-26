@@ -26,11 +26,11 @@ function mousePressed(){
     }else if(number ===2){
         quad();
     }else if(number===3){
-        
+        ellipse();
     }else if(number ===4){
-
+        rect();
     }else if(number ===5){
-
+        
     }
 }
 function mouseReleased(){
