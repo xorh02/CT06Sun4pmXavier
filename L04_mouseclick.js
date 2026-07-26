@@ -13,9 +13,10 @@ function draw(){
 
 function mousePressed(){
     shapecolor = 'red';
-    
+    size = 600;
 }
 
 function mouseReleased(){
     shapecolor = 'blue';
+    size =200;
 }
