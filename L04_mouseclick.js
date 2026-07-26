@@ -22,9 +22,9 @@ function mousePressed(){
     rect(random(600),random(400),random(255),random(255));
     number = random(3);
     if(number ===0){
-        circle();
+        circle(random(255),random(255),random(255));
     }else if(number ===1){
-        quad();
+        quad(random(255),random(255),random(255));
     }else if(number===2){
         ellipse();
     }else if(number ===3){
