@@ -21,13 +21,13 @@ function mousePressed(){
     fill(random(255),random(255),random(255));
     rect(random(600),random(400),random(255),random(255));
     number = random(3);
-    if(number ===1){
+    if(number ===0){
         circle();
-    }else if(number ===2){
+    }else if(number ===1){
         quad();
-    }else if(number===3){
+    }else if(number===2){
         ellipse();
-    }else if(number ===4){
+    }else if(number ===3){
         rect();
     }
 }
