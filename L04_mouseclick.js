@@ -1,6 +1,6 @@
 // write your codes here
 let shapecolor = 'white';
-
+let number;
 function setup(){
     createCanvas(600,400);
     background(220);
