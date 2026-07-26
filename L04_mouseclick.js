@@ -20,6 +20,7 @@ function mousePressed(){
     shapecolor = color(random(255),random(255),random(255))
     fill(random(255),random(255),random(255));
     rect(random(600),random(400),random(255),random(255));
+    
 }
 function mouseReleased(){
     shapecolor = 'white';
