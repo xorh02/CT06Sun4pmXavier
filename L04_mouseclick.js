@@ -14,7 +14,7 @@ function draw(){
     //random(low number,high number); -> generate a number between lownumber and high number
     //fill(r,g,b);and 0 255
     if(mouse.Presses()){
-        ellipse
+        ellipse(mouseX,mouseY,10,10);
     }
 }
 
@@ -28,6 +28,6 @@ function mouseReleased(){
     shapecolor = 'white';
     background(220);
 }
-function mouseMoved(){
-    ellipse(mouseX,mouseY,10,10);
-}
+// function mouseMoved(){
+//     ellipse(mouseX,mouseY,10,10);
+// }
