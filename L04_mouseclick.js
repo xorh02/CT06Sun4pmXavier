@@ -24,11 +24,11 @@ function mousePressed(){
     if(number ===0){
         circle(random(255),random(255),random(255));
     }else if(number ===1){
-        quad(random(255),random(255),random(255));
+        quad(random(255),random(255),random(255),random(255));
     }else if(number===2){
-        ellipse();
+        ellipse(random(255),random(255),random(255),random(255));
     }else if(number ===3){
-        rect();
+        rect(random(255),random(255),random(255));
     }
 }
 function mouseReleased(){
