@@ -10,6 +10,7 @@ function draw(){
     fill(shapecolor);
     circle(300,200,300);
     //random(); -> generate a number between 0 and 1
+    //random(one number)
 }
 
 function mousePressed(){
