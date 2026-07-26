@@ -9,6 +9,7 @@ function setup(){
 function draw(){
     fill(shapecolor);
     circle(300,200,300);
+    random();
 }
 
 function mousePressed(){
