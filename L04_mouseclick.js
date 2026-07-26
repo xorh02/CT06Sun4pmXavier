@@ -24,4 +24,5 @@ function mousePressed(){
 }
 function mouseReleased(){
     shapecolor = 'white';
+    background(220);
 }
