@@ -15,7 +15,6 @@ function draw(){
     //fill(r,g,b);and 0 255
     circle(300,200,size);
 }
-
 function mousePressed(){
     shapecolor = color(random(255),random(255),random(255))
     fill(random(255),random(255),random(255));
@@ -26,10 +25,10 @@ function mouseReleased(){
     shapecolor = 'white';
     background(220);
 }
-// function mouseMoved(){
-//     // ellipse(mouseX,mouseY,10,10);
-//     size +=1;
-// }
+function mouseMoved(){
+    // ellipse(mouseX,mouseY,10,10);
+    size +=1;
+}
 function mouseDragged(){
     let ssize = random(5,20);
     fill(random(255),random(255),random(255));
