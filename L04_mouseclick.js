@@ -1,6 +1,6 @@
 // write your codes here
 let shapecolor = 'blue';
-let size = 200;
+
 function setup(){
     createCanvas(600,400);
     background(220);
@@ -8,15 +8,15 @@ function setup(){
 
 function draw(){
     fill(shapecolor);
-    circle(300,200,size);
+    circle(300,200,300);
 }
 
 function mousePressed(){
     shapecolor = 'red';
-    size = 600;
+
 }
 
 function mouseReleased(){
     shapecolor = 'blue';
-    size =200;
+ 
 }
