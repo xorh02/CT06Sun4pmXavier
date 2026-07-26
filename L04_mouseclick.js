@@ -14,11 +14,10 @@ function draw(){
     //random(low number,high number); -> generate a number between lownumber and high number
     //fill(r,g,b);and 0 255
     fill(random(255),random(255),random(255));
-    rect(10,20,20,20);
+    rect(random(),20,20,20);
 }
 
 function mousePressed(){
-    erase();
     shapecolor = color(random(255),random(255),random(255))
 }
 
