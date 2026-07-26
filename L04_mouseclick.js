@@ -28,5 +28,5 @@ function mouseReleased(){
 }
 function mouseMoved(){
     // ellipse(mouseX,mouseY,10,10);
-    size +=
+    size +=1;
 }
