@@ -31,7 +31,7 @@ function mouseReleased(){
 //     size +=1;
 // }
 function mouseDragged(){
-    let ssize = random(10,20);
+    let ssize = random(5,20);
     fill(random(255),random(255),random(255));
     circle(mouseX+ random(-20,20),mouseY+random(-20,20),ssize);
 }
