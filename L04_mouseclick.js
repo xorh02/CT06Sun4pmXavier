@@ -20,7 +20,7 @@ function mousePressed(){
     shapecolor = color(random(255),random(255),random(255))
     fill(random(255),random(255),random(255));
     rect(random(600),random(400),random(255),random(255));
-    number = random(5);
+    number = random(3);
     if(number ===1){
         circle();
     }else if(number ===2){
@@ -29,8 +29,6 @@ function mousePressed(){
         ellipse();
     }else if(number ===4){
         rect();
-    }else if(number ===5){
-        
     }
 }
 function mouseReleased(){
