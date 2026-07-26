@@ -26,3 +26,6 @@ function mouseReleased(){
     shapecolor = 'white';
     background(220);
 }
+function mouseMoved(){
+    
+}
