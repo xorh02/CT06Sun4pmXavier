@@ -22,11 +22,11 @@ function mousePressed(){
     rect(random(600),random(400),random(255),random(255));
     number = random(5);
     if(number ===1){
-        circle
+        circle();
     }else if(number ===2){
-
+        quad();
     }else if(number===3){
-
+        
     }else if(number ===4){
 
     }else if(number ===5){
