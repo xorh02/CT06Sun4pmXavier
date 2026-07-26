@@ -9,7 +9,7 @@ function setup(){
 function draw(){
     fill(shapecolor);
     circle(300,200,300);
-    random();
+    //random(); -> generate a number between 0 and 1
 }
 
 function mousePressed(){
