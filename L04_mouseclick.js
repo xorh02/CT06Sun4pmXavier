@@ -31,6 +31,7 @@ function mouseMoved(){
     size +=1;
 }
 function mouseDragged(){
-    let ssize = random(10,50)
+    let ssize = random(10,50);
+    fill(random(255),random(255))
     ellipse(mouseX,mouseY,20,20);
 }
