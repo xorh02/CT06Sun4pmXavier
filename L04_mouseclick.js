@@ -26,6 +26,8 @@ function mousePressed(){
     }else if(number ===2){
 
     }else if(number===3){
+
+    }else if(number ===4){
         
     }
 }
