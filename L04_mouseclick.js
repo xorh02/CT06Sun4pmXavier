@@ -26,12 +26,12 @@ function mouseReleased(){
     shapecolor = 'white';
     background(220);
 }
-function mouseMoved(){
-    // ellipse(mouseX,mouseY,10,10);
-    size +=1;
-}
+// function mouseMoved(){
+//     // ellipse(mouseX,mouseY,10,10);
+//     size +=1;
+// }
 function mouseDragged(){
     let ssize = random(10,50);
     fill(random(255),random(255),random(255));
-    ellipse(mouseX+ random(-20,20),mouseY+random(-20,20),ssize);
+    circle(mouseX+ random(-20,20),mouseY+random(-20,20),ssize);
 }
