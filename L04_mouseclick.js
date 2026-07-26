@@ -14,7 +14,7 @@ function draw(){
     //random(low number,high number); -> generate a number between lownumber and high number
     //fill(r,g,b);and 0 255
     fill(random(255),random(255),random(255));
-    rect(random(600),random(400),20,20);
+    rect(random(600),random(400),random(255),random(255));
 }
 
 function mousePressed(){
