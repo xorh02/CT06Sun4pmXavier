@@ -32,5 +32,9 @@ function keyReleased(){
     background(220);
  }
 //==== task1 shapedrawer=============================
-
+function draw(){
+    if(key === 'a'){
+        
+    }
+}
 
