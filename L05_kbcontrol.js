@@ -81,11 +81,11 @@ function draw(){
 if(keyIsDown(LEFT_ARROW)){
     x-= speed;
 }
-if(keyIsDown(LEFT_ARROW)){
-    x-= speed;
+if(keyIsDown(RIGHT_ARROW)){
+    x+= speed;
 }
 if(keyIsDown(UP_ARROW)){
-    x-= speed;
+    y-= speed;
 }
 if(keyIsDown(DOWN_ARROW)){
     y += speed;
