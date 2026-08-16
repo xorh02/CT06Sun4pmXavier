@@ -91,9 +91,6 @@ function draw(){
         y += speed;
     }
     x = constrain(x,0,width);
-    if(x <0){
-        x -= x
-    }
     y = constrain(y,0,height);
 }
 //============challenge2 we will come back ltr=======
