@@ -78,18 +78,19 @@ function draw(){
         ballcolor = color(255,255,0);//yellow
     }
 //============== task4 ================
-if(keyIsDown(LEFT_ARROW)){
-    x-= speed;
-}
-if(keyIsDown(RIGHT_ARROW)){
-    x+= speed;
-}
-if(keyIsDown(UP_ARROW)){
-    y-= speed;
-}
-if(keyIsDown(DOWN_ARROW)){
-    y += speed;
-}
+    if(keyIsDown(LEFT_ARROW)){
+        x-= speed;
+    }
+    if(keyIsDown(RIGHT_ARROW)){
+        x+= speed;
+    }
+    if(keyIsDown(UP_ARROW)){
+        y-= speed;
+    }
+    if(keyIsDown(DOWN_ARROW)){
+        y += speed;
+    }
+     circle( 100,100,50);
 }
 //============challenge2 we will come back ltr=======
 
