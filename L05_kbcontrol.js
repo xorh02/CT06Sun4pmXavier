@@ -78,7 +78,9 @@ function draw(){
         ballcolor = color(255,255,0);//yellow
     }
 //============== task4 ================
-
+if(keyIsDown(LEFT_ARROW)){
+    
+}
 
 }
 //============challenge2 we will come back ltr=======
