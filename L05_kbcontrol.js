@@ -40,7 +40,7 @@ function draw(){
         square(60,60,80);
     }
     if(key === 't' || key === 'T'){
-        circle(100,100,80);
+        triangle(100,100,80);
     }
     
 }
