@@ -1,11 +1,11 @@
 // write your codes here
 let size = 5;
-let color;
+let colors;
 function setup(){
     createCanvas(600,400);
     background(220);
 }
 
 function mousePressed(){
-    
+    colors = color()
 }
