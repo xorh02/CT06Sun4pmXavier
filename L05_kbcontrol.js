@@ -33,7 +33,7 @@ function keyReleased(){
  }
 //==== task1 shapedrawer=============================
 function draw(){
-    if(key === 'a'){
+    if(key === 'c' || key === 'C'){
         circle(100,100,80);
     }
 }
