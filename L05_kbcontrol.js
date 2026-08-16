@@ -24,24 +24,24 @@ function mouseDragged(){
     size += 0.5;
 }
 //==============challenge 1  =======================
-function keyPressed(){ 
-    background(220);
-    let numCircles = floor(random(5,21));
-    for(let i =0; i < numCircles;i++){
-        let x = random(width);
-        let y = random(height);
-        let size = random(5,40);
-        fill(random(255),random(255),random(255));
-        circle(x,y,size);
-    }
+// function keyPressed(){ 
+//     background(220);
+//     let numCircles = floor(random(5,21));
+//     for(let i =0; i < numCircles;i++){
+//         let x = random(width);
+//         let y = random(height);
+//         let size = random(5,40);
+//         fill(random(255),random(255),random(255));
+//         circle(x,y,size);
+//     }
 
-//========excercise 1 printing key and keyCode=====
-    console.log("key:",key);
-    console.log("keycode:",keyCode);
- }
-function keyReleased(){ 
-    background(220);
- }
+// //========excercise 1 printing key and keyCode=====
+//     console.log("key:",key);
+//     console.log("keycode:",keyCode);
+//  }
+// function keyReleased(){ 
+//     background(220);
+//  }
 //==== task1 shapedrawer=============================
 function draw(){
     if(key === 'c' || key === 'C') {
@@ -57,12 +57,12 @@ function draw(){
 //======== task 2 up and down arrow control==========
      fill(ballcolor);
      circle( 100,100,50);
-     if(keyCode === 38){
-        ballcolor = color(255,0,0);
-     }
-     if(keyCode === 40){
-        ballcolor = color(0,0,0);
-;     }
+//      if(keyCode === 38){
+//         ballcolor = color(255,0,0);
+//      }
+//      if(keyCode === 40){
+//         ballcolor = color(0,0,0);
+// ;     }
 //====== task 3: else yellow=====================
     if(key === 'w' || key ==='W'){
         ballcolor = color(255);//white
