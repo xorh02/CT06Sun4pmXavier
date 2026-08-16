@@ -90,7 +90,7 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y += speed;
     }
-    
+    x = constrain(x,0,)
 }
 //============challenge2 we will come back ltr=======
 
