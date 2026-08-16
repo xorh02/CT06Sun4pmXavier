@@ -90,7 +90,7 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         y += speed;
     }
-     circle( 100,100,50);
+    
 }
 //============challenge2 we will come back ltr=======
 
