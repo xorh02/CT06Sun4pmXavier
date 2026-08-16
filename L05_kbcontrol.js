@@ -79,7 +79,7 @@ function draw(){
     }
 //============== task4 ================
 if(keyIsDown(LEFT_ARROW)){
-    
+    x-= speed;
 }
 
 }
