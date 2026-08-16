@@ -59,7 +59,10 @@ function draw(){
         ballcolor = color(0,0,0)
 ;     }
 //====== task 3: else yellow=====================
-     if(key === 'w' || key ==='W'){}
+    if(key === 'w' || key ==='W'){}
+    else if(){}
+    else if(key ==='g'||key==='G'){ballcolor = color(0,255,0);}
+    else{ ballcolor = color();}
 
 
 }
