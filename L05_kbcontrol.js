@@ -23,6 +23,8 @@ function keyPressed(){
         let x = random(width);
         let y = random(height);
         let size = random(5,40);
+        fill(random(255),random(255),random(255));
+        circle(x,y,size);
     }
  }
 function keyReleased(){ 
