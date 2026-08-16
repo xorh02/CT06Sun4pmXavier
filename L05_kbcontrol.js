@@ -81,7 +81,15 @@ function draw(){
 if(keyIsDown(LEFT_ARROW)){
     x-= speed;
 }
-
+if(keyIsDown(LEFT_ARROW)){
+    x-= speed;
+}
+if(keyIsDown(LEFT_ARROW)){
+    x-= speed;
+}
+if(keyIsDown(LEFT_ARROW)){
+    x-= speed;
+}
 }
 //============challenge2 we will come back ltr=======
 
