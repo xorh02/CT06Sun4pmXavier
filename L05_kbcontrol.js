@@ -28,5 +28,5 @@ function keyPressed(){
     }
  }
 function keyReleased(){ 
-
+    background(220);
  }
