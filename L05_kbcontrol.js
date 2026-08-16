@@ -16,7 +16,7 @@ function mouseDragged(){
     
     size += 0.5;
 }
-//=====================================
+//==============challenge 1  =======================
 function keyPressed(){ 
     background(220);
     let numCircles = floor(random(5,21));
@@ -31,3 +31,4 @@ function keyPressed(){
 function keyReleased(){ 
     background(220);
  }
+//====
