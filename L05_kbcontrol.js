@@ -52,8 +52,11 @@ function draw(){
 //======== task 2 up and down arrow control==========
      circle( 100,100,50);
      if(keyCode === 38){
-        ballcolor = color(255,0,0)
+        ballcolor = color(255,0,0);
      }
+     if(keyCode === 40){
+        ballcolor = color(0,0,0)
+;     }
 
 
 
