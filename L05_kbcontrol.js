@@ -56,7 +56,7 @@ function draw(){
         ballcolor = color(255,0,0);
      }
      if(keyCode === 40){
-        ballcolor = color(0,0,0)
+        ballcolor = color(0,0,0);
 ;     }
 //====== task 3: else yellow=====================
     if(key === 'w' || key ==='W'){
