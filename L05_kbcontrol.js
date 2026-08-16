@@ -5,7 +5,7 @@ let ballcolor;
 function setup(){
     createCanvas(600,400);
     background(220);
-    
+    ballcolor = color(255);
 }
 
 function mousePressed(){
@@ -51,7 +51,9 @@ function draw(){
 
 //======== task 2 up and down arrow control==========
      circle( 100,100,50);
-
+     if(keyCode === 38){
+        ballcolor = color(255,0,0)
+     }
 
 
 
