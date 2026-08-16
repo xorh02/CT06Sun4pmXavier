@@ -84,11 +84,11 @@ if(keyIsDown(LEFT_ARROW)){
 if(keyIsDown(LEFT_ARROW)){
     x-= speed;
 }
-if(keyIsDown(LEFT_ARROW)){
+if(keyIsDown(UP_ARROW)){
     x-= speed;
 }
 if(keyIsDown(DOWN_ARROW)){
-    y -= speed;
+    y += speed;
 }
 }
 //============challenge2 we will come back ltr=======
