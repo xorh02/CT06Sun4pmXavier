@@ -2,6 +2,10 @@
 let size = 5;
 let colors;
 let ballcolor;
+
+let x = 100;
+let y =100;
+
 function setup(){
     createCanvas(600,400);
     background(220);
