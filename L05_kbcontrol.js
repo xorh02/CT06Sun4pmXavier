@@ -47,7 +47,12 @@ function draw(){
         triangle(100,50,50,150,150,150);
     }
 
-//==
+//======== task 2 up and down arrow control==========
+
+
+
+
+
 }
 //============challenge2 we will come back ltr=======
 
