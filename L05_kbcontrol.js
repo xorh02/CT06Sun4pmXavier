@@ -91,7 +91,7 @@ function draw(){
         y += speed;
     }
     x = constrain(x,0,width);
-    y = constrain(y,0,height)
+    y = constrain(y,0,height);
 }
 //============challenge2 we will come back ltr=======
 
