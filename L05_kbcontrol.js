@@ -48,7 +48,7 @@ function draw(){
     }
 
 //======== task 2 up and down arrow control==========
-
+     c
 
 
 
