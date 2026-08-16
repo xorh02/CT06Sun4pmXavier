@@ -28,7 +28,7 @@ function keyPressed(){
         circle(x,y,size);
     }
 
-
+//========
     console.log("key:",key);
     console.log("keycode:",keyCode);
  }
