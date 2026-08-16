@@ -64,7 +64,9 @@ function draw(){
     }
     else if(key ==='r' || key ==='R'){
         ballcolor = color(255,0,0);//red
-    }else if(key==='b'||key==='B')
+    }else if(key==='b'||key==='B'){
+        ballcolor = color(0,0,255);//blue
+    }
     else if(key ==='g'||key==='G'){
         ballcolor = color(0,255,0);}//green
     else{ 
