@@ -28,7 +28,7 @@ function keyPressed(){
         circle(x,y,size);
     }
 
-//========
+//========excercise 1 printing key and keyCode=====
     console.log("key:",key);
     console.log("keycode:",keyCode);
  }
@@ -46,6 +46,8 @@ function draw(){
     if(key === 't' || key === 'T'){
         triangle(100,50,50,150,150,150);
     }
+
+//==
 }
 //============challenge2 we will come back ltr=======
 
