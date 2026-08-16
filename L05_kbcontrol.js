@@ -16,3 +16,5 @@ function mouseDragged(){
     
     size += 0.5;
 }
+function keyPressed(){  }
+function keyReleased(){  }
