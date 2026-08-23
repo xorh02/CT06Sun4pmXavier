@@ -7,15 +7,14 @@ function setup(){
 }
 
 function draw(){
+    fill()
     if(key === 'r' || key ==='R'){
         rect(shapeX,shapeY,50,50);
     }
      if(key === 'e' || key ==='E'){
         circle(shapeX,shapeY,50);
     }
-    //  if(key === 't' || key ==='T'){
-        
-    // }
+    
 }
 function keyReleased(){
     background(220);
