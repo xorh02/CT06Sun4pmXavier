@@ -14,6 +14,12 @@ function draw(){
      if(key === 'e' || key ==='E'){
         circle(shapeX,shapeY,50);
     }
+    if(key === 'b' || key ==='R'){
+        rect(shapeX,shapeY,50,50);
+    }
+     if(key === 'e' || key ==='E'){
+        circle(shapeX,shapeY,50);
+    }
     
 }
 function keyReleased(){
