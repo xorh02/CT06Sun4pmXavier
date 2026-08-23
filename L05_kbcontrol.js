@@ -24,6 +24,3 @@ function draw(){
         shapeColor = color(255,255,0);
     }
 }
-function keyReleased(){
-    background(220);
-}
