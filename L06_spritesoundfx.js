@@ -4,7 +4,7 @@ let y=200;
 let soundEffect, bgMusic, staticImage;
 
 function preload(){
-    
+    soundEffect = 
 }
 
 
