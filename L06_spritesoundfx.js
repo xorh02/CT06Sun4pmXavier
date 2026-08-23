@@ -1,5 +1,5 @@
 // write your codes here
-let soundEffect, bgMusic, staticImage;
+let soundEffect, bgMusic, staticImage,loseffect;
 let staticImageX = 0;
 let staticImageY = 0;
 let staticSpeed = 3;
