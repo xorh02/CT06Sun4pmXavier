@@ -3,6 +3,7 @@ let shapeX = 200;
 let shapeY = 200;
 function setup(){
     createCanvas(400,400);
+    background(220);
 }
 
 function draw(){
