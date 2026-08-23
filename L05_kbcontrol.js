@@ -17,10 +17,12 @@ function draw(){
     if(key === 'b' || key ==='B'){
         shapeColor = "blue";
     }
-     if(key === 'e' || key ==='G'){
+     if(key === 'g' || key ==='G'){
         shapeColor = "green";
     }
-    
+     if(key === 'y' || key ==='G'){
+        shapeColor = "green";
+    }
 }
 function keyReleased(){
     background(220);
