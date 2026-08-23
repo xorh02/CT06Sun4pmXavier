@@ -17,8 +17,8 @@ function draw(){
     if(key === 'b' || key ==='B'){
         shapeColor = "blue";
     }
-     if(key === 'e' || key ==='E'){
-        circle(shapeX,shapeY,50);
+     if(key === 'e' || key ==='G'){
+        shapeColor = "green";
     }
     
 }
