@@ -7,7 +7,7 @@ function setup(){
 }
 
 function draw(){
-    fill()
+    fill(shapeColor);
     if(key === 'r' || key ==='R'){
         rect(shapeX,shapeY,50,50);
     }
