@@ -13,7 +13,7 @@ function draw(){
         rect(shapeX,shapeY,size,size);
     }
      if(key === 'e' || key ==='E'){
-        circle(shapeX,shapeY,50);
+        circle(shapeX,shapeY,size);
     }
     if(key === 'b' || key ==='B'){
         shapeColor = color(0,0,255);
