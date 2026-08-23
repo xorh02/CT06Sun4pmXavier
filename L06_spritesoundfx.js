@@ -22,8 +22,8 @@ function draw(){
     staticImageX += staticSpeed;
   }
   image(staticImage,staticImageX,staticImageY,50,50);
-  constrain(staticImageX,0,400);
-  constrain(staticImageX,0,400);
+  constrain(staticImageX,50,350);
+  constrain(staticImage,0,400);
 }
 
 function keyPressed(){
