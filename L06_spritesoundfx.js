@@ -23,7 +23,7 @@ function draw(){
   }
   image(staticImage,staticImageX,staticImageY,50,50);
   constrain(staticImageX,0,400);
-  constrain(stat)
+  constrain(staticImageX,0,400);
 }
 
 function keyPressed(){
