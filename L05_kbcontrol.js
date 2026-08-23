@@ -1,12 +1,13 @@
 let shapeColor = "black";
-let shapeX =
+let shapeX = 200;
+let shapeY = 200;
 function setup(){
     createCanvas(400,400);
 }
 
 function draw(){
     if(key === 'r' || key ==='R'){
-        
+        rect(shapeX)
     }
      if(key === 'e' || key ==='E'){
         
