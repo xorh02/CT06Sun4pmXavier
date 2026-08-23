@@ -19,7 +19,7 @@ function draw(){
     staticImageX -= staticSpeed;
   }
   if(keyIsDown(RIGHT_ARROW)){
-    staticImageX += stat
+    staticImageX += staticSpeed;
   }
   image(staticImage,staticImageX,staticImageY,50,50);
 }
