@@ -9,7 +9,7 @@ function setup(){
 
 function draw(){
     circle(x,y,50);
-    if(keyCode === 37){
-        
+    if(keyCode === 38){
+      y -= 
     }
 }
