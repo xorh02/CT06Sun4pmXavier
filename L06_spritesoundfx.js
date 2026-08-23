@@ -8,12 +8,18 @@ function setup(){
 }
 
 function draw(){
-    circle(x,y,50);
+  
     if(keyCode === 38){
       y -= 5;
     }
     if(keyCode === 37){
         x -=5;
     }
-    if(keyCode === 39)
+    if(keyCode === 39){
+
+    }
+    if(keyCode ===40){
+
+    }
+      circle(x,y,50);
 }
