@@ -21,7 +21,7 @@ function draw(){
         shapeColor = color(0,255,0);
     }
      if(key === 'y' || key ==='Y'){
-        shapeColor = "yellow";
+        shapeColor = color(255,255,0);
     }
 }
 function keyReleased(){
