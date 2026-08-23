@@ -10,9 +10,21 @@ function setup(){
 function draw(){
     fill(shapeColor);
     if(key === 'r' || key ==='R'){
+         if(key === '-' ){
+        size -= 10;
+        }
+        if(key === '+'){
+            size+= 10;
+        };
         rect(shapeX,shapeY,size,size);
     }
      if(key === 'e' || key ==='E'){
+         if(key === '-' ){
+        size -= 10;
+        }
+        if(key === '+'){
+            size+= 10;
+        };
         circle(shapeX,shapeY,size);
     }
     if(key === 'b' || key ==='B'){
