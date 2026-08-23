@@ -1,4 +1,5 @@
 let shapeColor = "black";
+let shapeX =
 function setup(){
     createCanvas(400,400);
 }
