@@ -15,10 +15,10 @@ function draw(){
         circle(shapeX,shapeY,50);
     }
     if(key === 'b' || key ==='B'){
-        shapeColor = color();
+        shapeColor = color(0,0,255);
     }
      if(key === 'g' || key ==='G'){
-        shapeColor = "green";
+        shapeColor = color(0,255,0);
     }
      if(key === 'y' || key ==='Y'){
         shapeColor = "yellow";
