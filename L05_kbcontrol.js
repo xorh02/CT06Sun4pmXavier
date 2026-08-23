@@ -24,4 +24,10 @@ function draw(){
      if(key === 'y' || key ==='Y'){
         shapeColor = color(255,255,0);
     }
+     if(key === '-' || key ==='G'){
+        shapeColor = color(0,255,0);
+    }
+     if(key === 'y' || key ==='Y'){
+        shapeColor = color(255,255,0);
+    }
 }
