@@ -20,8 +20,8 @@ function draw(){
      if(key === 'g' || key ==='G'){
         shapeColor = "green";
     }
-     if(key === 'y' || key ==='G'){
-        shapeColor = "green";
+     if(key === 'y' || key ==='Y'){
+        shapeColor = "yellow";
     }
 }
 function keyReleased(){
