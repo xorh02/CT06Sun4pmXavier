@@ -44,6 +44,6 @@ function keyPressed(){
         soundEffect.play();
     }
     if(keyCode === 38){
-        soundEffect
+        loseffect.play();
     }
 }
