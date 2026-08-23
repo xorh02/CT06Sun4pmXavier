@@ -2,7 +2,7 @@
 let soundEffect, bgMusic, staticImage;
 let staticImageX = 0;
 let staticImageY = 0;
-let st
+let staticSpeed = 3;
 function preload(){
     soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
@@ -15,7 +15,7 @@ function setup(){
 }
 function draw(){
   background("lightblue");
-  image(staticImage,0,0,50,50);
+  image(staticImage,staticImageX,s,50,50);
 }
 
 function keyPressed(){
