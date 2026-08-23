@@ -22,7 +22,7 @@ function draw(){
     staticImageX += staticSpeed;
   }
   //constrain(value,minimum,maximum);
-  staticImageX
+  staticImageX = constrain(staticImageX, 50)
   image(staticImage,staticImageX,staticImageY,50,50);
 }
 
