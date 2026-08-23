@@ -22,12 +22,10 @@ function draw(){
     staticImageX += staticSpeed;
   }
   image(staticImage,staticImageX,staticImageY,50,50);
-
-
 }
 
 function keyPressed(){
-    if(keyCode ===32){
+    if(keyCode === 32){
         soundEffect.play();
     }
 }
