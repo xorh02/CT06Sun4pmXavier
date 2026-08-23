@@ -10,7 +10,7 @@ function draw(){
         rect(shapeX,shapeY,50,50);
     }
      if(key === 'e' || key ==='E'){
-        circle(shapeX,shapeY,50,50);
+        circle(shapeX,shapeY,50);
     }
     //  if(key === 't' || key ==='T'){
         
