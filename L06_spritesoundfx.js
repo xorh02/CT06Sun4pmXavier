@@ -15,7 +15,9 @@ function setup(){
 }
 function draw(){
   background("lightblue");
-  if()
+  if(keyIsDown(LEFT_ARROW)){
+    stat
+  }
   image(staticImage,staticImageX,staticImageY,50,50);
 }
 
