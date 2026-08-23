@@ -7,10 +7,10 @@ function preload(){
 }
 function setup(){
  createCanvas(400,400);
-
+ bg
  
 }
 function draw(){
-  
+  background("lightblue");
   
 }
