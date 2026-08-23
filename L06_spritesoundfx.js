@@ -17,7 +17,8 @@ function draw(){
   background("lightblue");
   if(staticImageX <=50 || staticImageX >=350 
      || staticImageY <=50 || staticImageY >=350){
-        background("re")
+        background("red");
+        soundEffect.play()
      }
   if(keyIsDown(LEFT_ARROW)){
     staticImageX -= staticSpeed;
