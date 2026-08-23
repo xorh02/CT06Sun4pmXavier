@@ -7,7 +7,7 @@ function setup(){
 
 function draw(){
     if(key === 'r' || key ==='R'){
-        rect(shapeX)
+        rect(shapeX,shapeY,50,50);
     }
      if(key === 'e' || key ==='E'){
         
