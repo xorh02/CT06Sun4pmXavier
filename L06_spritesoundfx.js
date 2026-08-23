@@ -9,7 +9,7 @@ function setup(){
 
 function draw(){
   
-    if(keyIsDown(LEFT_ARROW)){
+    if(keyIsDown()){
       y -= 5;
     }
     if(keyCode === 37){
