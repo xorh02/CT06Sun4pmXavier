@@ -7,7 +7,7 @@ function preload(){
     soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
     staticImage = loadImage('assets/pico-a.png');
-    loseffect = loadSound('assets/')
+    loseffect = loadSound('assets/Lose.mp3');
 }
 function setup(){
  createCanvas(400,400);
@@ -42,5 +42,8 @@ function draw(){
 function keyPressed(){
     if(keyCode === 32){
         soundEffect.play();
+    }
+    if(keyCode === 38){
+        soundEffect
     }
 }
