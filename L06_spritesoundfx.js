@@ -15,8 +15,8 @@ function setup(){
 }
 function draw(){
   background("lightblue");
-  if(staticImageX <=50 || staticImageX >=350 
-     || staticImageY <=50 || staticImageY >=350){
+  if(staticImageX <=50 || staticImageX >=300 
+     || staticImageY <=50 || staticImageY >=300){
         background("red");
         soundEffect.play();
      }
