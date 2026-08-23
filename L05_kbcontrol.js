@@ -5,9 +5,9 @@ function setup(){
 
 function draw(){
     if(key === 'r' || key ==='R'){
-
+        
     }
-     if(key === 'r' || key ==='E'){
+     if(key === 'e' || key ==='E'){
         
     }
      if(key === 't' || key ==='T'){
